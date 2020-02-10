@@ -1,0 +1,41 @@
+npm install --save-dev nodemon   1.18.10
+npm install --save express dotenv
+npm install --save ejs
+npm install --save express-ejs-layouts
+npm install --save sequelize
+npm install --save mysql2
+npm install --save bcrypt-nodejs
+npm install --save connect flash cookie-parser express-session
+npm install --save express-validator@5.3.1
+npm install --save nodemailer
+npm install --save juice html-to-text  // opcional
+npm install --save passport passport-local
+npm install --save uuid
+npm install --save multer shortid
+npm install -D babel-loader @babel/core @babel/preset-env webpack webpack-cli
+npm install --save concurrently
+npm install --save leaflet-geosearch
+npm install --save slug
+npm install moment --save
+npm install --save axios
+npm install --save sweetalert2
+
+
+
+ojo 263 y 264 no se programo ver todos
+262 - mostrarAsistentes
+
+
+crear esta imagen en esta ruta
+
+
+/img/meetgt.jpg"
+
+reemplazarla por meeti.jpg
+
+para ver que trae la consulta en los .ejs
+se usa 
+<% JSON.stringify(modelo) %>
+
+278 y 279 no se programo es para comparar o buscar lugares por latitud y longitud pero se debe usar postgreslg
+

@@ -1,0 +1,7 @@
+
+<a href="/editar-perfil"><%= usuario.nombre%></a>
+<% if (usuario.imagen) { %>
+		<img class="admin-perfil" src="uploads/perfiles/<%= usuario.imagen%>" >
+<% } %>
+<a href="/administracion">Administracion</a>
+<a href="/cerrar-sesion">Cerrar Sesion</a>

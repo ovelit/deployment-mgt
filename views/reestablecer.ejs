@@ -1,0 +1,17 @@
+<main class ="contenedor contenedor-formularios">
+	<h1><%= nombrePagina %></h1>
+	<form action="/reestablecer" method="POST" class="default-form">
+		<label class="campo">Coloca tu e-mail para reestablecer la contrasena</label>
+		<div class="campo">
+			<label>E-mail</label>
+			<input type="email" name="email" placeholder="Tu Email">
+		</div>
+		<div class="campo enviar">
+			<input type="submit" class="btn btn-rosa" value="Reestablecer Password">
+		</div>
+		<div class="campo-a">
+			<a href="/iniciar-sesion"> Volver a Login</a>
+		</div>
+		
+	</form>
+</main>
